@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  .main
+    .carousel.slide(id="carouselExampleInterval" data-ride="carousel")
+      .carousel-inner
+        .carousel-item.active(data-interval="2000")
+          img.model-image(src='images/tesla-model-3.jpeg').mb-3
+          .carousel-caption.mt-1
+            .card
+              .card-body.text-body
+                h5 Model 3
+                p.
+                  Pięciodrzwiowy kompaktowy sedan (segment C), wyposażony w pełni elektryczny napęd
+                  (może przejechać ok. 350 km na jednym ładowaniu), produkowany od 2017 roku.
+        .carousel-item(data-interval="2000")
+          img.model-image(src="images/tesla-model-y.jpg").mb-3
+          .carousel-caption.mt-1
+            .card
+              .card-body.text-body
+                h5 Model Y
+                p.
+                  Tesla Model Y to zbliżający się elektryczny kompaktowy crossover (CUV).
+                  Został pokazany w marcu 2019 r., a dostawy rozpoczynają się latem 2020 r.
+        .carousel-item(data-interval="2000")
+          img.model-image(src="images/tesla-model-x.jpg").mb-3
+          .carousel-caption.mt-1
+            .card
+              .card-body.text-body
+                h5 Model X
+                p.
+                  Elektryczny samochód osobowy typu crossover produkowany przez amerykańską markę Tesla Motors od 2015 roku.
+                  Pojazd został po raz pierwszy zaprezentowany podczas Tesla Design Studio w Los Angeles 9 lutego 2012 roku.
+                  Auto bazuje na Modelu S.
+        .carousel-item(data-interval="2000")
+          img.model-image(src="images/tesla-model-s.jpg").mb-3
+          .carousel-caption.mt-1
+            .card
+              .card-body.text-body
+                h5 Model S
+                p.
+                  Luksusowy model segmentu E, napędzany silnikiem elektrycznym, produkowany od 2012 roku.
+                  To pierwszy seryjnie produkowany elektryczny sedan klasy premium.     
+      a.carousel-control-prev(href="#carouselExampleInterval" role="button" data-slide="prev")
+        span.carousel-control-prev-icon(aria-hidden="true")
+        span.sr-only Previous
+      a.carousel-control-next(href="#carouselExampleInterval" role="button" data-slide="next")
+        span.carousel-control-next-icon(aria-hidden="true")
+        span.sr-only Next

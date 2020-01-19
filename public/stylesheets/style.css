@@ -1,0 +1,67 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../images/tesla_bg.jpg);
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-color {
+  background-color: #1f2833;
+}
+
+.model-image {
+  height: 500px;
+  width: 960px;
+  padding-top: 2%;
+  border-radius: 2%;
+}
+
+.galery-list li {
+  margin-top: 2%;
+}
+
+.photoAndInfo {
+  display: flex;
+  align-items: center;
+}
+
+.photoAndInfo img {
+  display: block;
+  width: 420px;
+  border-radius: 12px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.photoAndInfo span {
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  text-align: left;
+  padding-right: 2%;
+}
+
+.photoAndInfo figcaption {
+  padding: 1%;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+}
